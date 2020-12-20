@@ -1,4 +1,5 @@
 # Real-time Stock-market prediction
+<img align="center" alt="architecture" src="./images/Architecture2.jpg" />
 In this repository, I have developed the entire server-side principal architecture for real-time stock market prediction with Machine Learning. I have used Tensorflow.js for constructing ml model architecture, and Kafka for real-time data streaming and pipelining.
 
 ## Technologies used:
@@ -14,5 +15,9 @@ In this repository, I have developed the entire server-side principal architectu
     - Use stored logs for analysis, and model training.
     - Store perormance of the ml model for monitering purpose.
  4. Node.js <img align="left" alt="node" width="26px" src="./images/node.png" />
-    - The entire server aarchitecture is developed with node.js
+    - The entire server architecture is developed with node.js
+
+## Implementation
+
+
 
