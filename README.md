@@ -68,7 +68,7 @@ $ node tf_validate.js
 
 <img align="center" alt="train" src="./images/validate.png" /><br>
 After validation the real and predicted values along with date and attribute of the stock-market time-series data that the model is trained against are updated to the MongoDB.<br>
-**Model performance chart from MongoDB**
+### Model performance chart from MongoDB
 <img align="center" alt="performance" src="./images/MLCharts.png" />
 
 ### Real-time prediction.
@@ -77,6 +77,12 @@ The weights of the trained model are saved and loaded at the consumer side that 
 $ node ml_consumer.js
 ```
 <img align="center" alt="ml_consumer" src="./images/ml_consumer.png" />
+
+```
+Prediction [attribute] [predicted value].
+example - Prediction Open 0.12453 
+This line in the above image indicates the prediction of the model in real-time. The model utilizes 7 prior time-series logs as input and predicts the 8th time-series event. 
+```
 
 ## Future Scopes.
 
