@@ -1,0 +1,28 @@
+{
+  "name": "stock-market-prediction-app",
+  "version": "1.0.0",
+  "description": "Building a real-time data streaming ML application pipeline with Apache Kafka",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node producer.js"
+  },
+  "author": "Victor Basu",
+  "license": "MIT",
+  "devDependencies": {
+    "clang-format": "~1.2.3",
+    "mkdirp": "~0.5.1",
+    "webpack": "~4.28.4",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "~3.4.1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.7.0",
+    "@tensorflow/tfjs-node": "^2.7.0",
+    "csv-parse": "^4.12.0",
+    "dotenv": "^8.2.0",
+    "kafka-node": "5.0.0",
+    "mongodb": "^3.6.3",
+    "socket.io": "^3.0.4",
+  }
+}
