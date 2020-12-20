@@ -65,9 +65,9 @@ Validating the model.
 $ node tf_validate.js
 ```
 <img align="center" alt="train" src="./images/validate.png" /><br>
-After validation the real and predicted values along with date and attribute of the stock-market time-series data that the model is trained against are updated to the MongoDB.
+After validation the real and predicted values along with date and attribute of the stock-market time-series data that the model is trained against are updated to the MongoDB.<br>
 **Model performance chart from MongoDB**
-<img align="center" alt="performance" src="./images/MLcharts.png" />
+<img align="center" alt="performance" src="./images/MLCharts.png" />
 
 ### Real-time prediction.
 The weights of the trained model are saved and loaded at the consumer side that subscribes to the second topic of the Kafka stream and predicts the output of the time-series event in real-time. As both topics of the Kafka pipeline are working in parallel, parallelism is achieved and logs are streamed by Kafka is real-time, which indeed implies the machine learning model could train and predict target in real-time.
