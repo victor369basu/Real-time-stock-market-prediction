@@ -6,7 +6,7 @@ In this repository, I have developed the entire server-side principal architectu
  1. Kafka.<img align="left" alt="kafka" width="26px" src="./images/kafka2.jpg" /><br>
     - Pipelining logs from source to topics.
     - Topics are subsribed by consumer for real-time ml prediction and model training in parallel.
- 2. Tensorflow.js.<img align="left" alt="tf" width="26px" src="./images/tfjslogo.png" /><br>
+ 2. TensorFlow.js.<img align="left" alt="tf" width="26px" src="./images/tfjslogo.png" /><br>
     - Construction of tensorflow model in node.js.
     - Training model with time-series stock market data.
     - Use tfjs model for real-time prediction.
@@ -52,7 +52,7 @@ In the __consumer__(consumer.js) the incomming logs are updated to MongoDB for f
 
 ### Machine Learning model.
 
-The machine learning model architecture has been developed with tensorflow.js. The model is trained with 80% of the stored data and validated against 20% of them. As the problem statement focuses over a time-series problem so we need to pre-process the data before training. Data have been pre-processed with **MinMax-Scalar** algorithm.<br>
+The machine learning model architecture has been developed with TensorFlow.js. The model is trained with 80% of the stored data and validated against 20% of them. As the problem statement focuses over a time-series problem so we need to pre-process the data before training. Data have been pre-processed with **MinMax-Scalar** algorithm.<br>
 Training the ml model.
 ```sh
 $ node tf_train.js
