@@ -13,6 +13,6 @@ In this repository, I have developed the entire server-side principal architectu
     - Upadate data-base with incomming stock market logs.
     - Use stored logs for analysis, and model training.
     - Store perormance of the ml model for monitering purpose.
- 4. Node.js <img align="left" alt="node" width="26px" src="./images/node.jpg" />
+ 4. Node.js <img align="left" alt="node" width="26px" src="./images/node.png" />
     - The entire server aarchitecture is developed with node.js
 
