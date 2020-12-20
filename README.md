@@ -61,9 +61,11 @@ $ server.sh
 ```
 <img align="center" alt="train" src="./images/train.png" />
 Validating the model.
+
 ```sh
 $ node tf_validate.js
 ```
+
 <img align="center" alt="train" src="./images/validate.png" /><br>
 After validation the real and predicted values along with date and attribute of the stock-market time-series data that the model is trained against are updated to the MongoDB.<br>
 **Model performance chart from MongoDB**
