@@ -11,9 +11,9 @@ In this repository, I have developed the entire server-side principal architectu
     - Training model with time-series stock market data.
     - Use tfjs model for real-time prediction.
  3. MongoDB.<img align="left" alt="mongodb" width="26px" src="./images/mongodb.png" /><br>
-    - Upadate data-base with incoming stock market logs.
+    - Update data-base with incoming stock market logs.
     - Use stored logs for analysis, and model training.
-    - Store perormance of the ml model for monitering purpose.
+    - Store performance of the ml model for monitoring purpose.
  4. Node.js <img align="left" alt="node" width="26px" src="./images/node.png" /><br>
     - The entire server architecture is developed with node.js
 
