@@ -48,7 +48,7 @@ $ node consumer.js
 Streaming consumer logs.<br>
 <img align="center" alt="consumer" src="./images/consumer.png" />
 <br>
-In the __consumer__(consumer.js) the incomming logs are updated to MongoDB for further model training and analysis.
+In the __consumer__(consumer.js) the incoming logs are updated to MongoDB for further model training and analysis.
 
 ### Machine Learning model.
 
