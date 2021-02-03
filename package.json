@@ -23,6 +23,6 @@
     "dotenv": "^8.2.0",
     "kafka-node": "5.0.0",
     "mongodb": "^3.6.3",
-    "socket.io": "^3.0.4",
+    "socket.io": "^3.0.4"
   }
 }
